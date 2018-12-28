@@ -8,7 +8,7 @@ def openfile(file):
         data = open(file, 'r')
         yield data
     except OSError:
-        print("Ошибка")
+        print("ГЋГёГЁГЎГЄГ ")
         exit(0)
  
 def readfile(f):
